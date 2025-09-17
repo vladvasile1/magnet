@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Materiale video + prezentare</title>
+  <style>
+    body {margin:0; font-family:sans-serif; background:#111; color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100vh;}
+    video {width:100%; max-width:800px; height:auto; margin:20px 0; border-radius:12px;}
+    a.button {background:#fff; color:#111; padding:12px 20px; margin:10px; border-radius:8px; text-decoration:none; font-weight:bold;}
+    a.button:hover {background:#ddd;}
+  </style>
+</head>
+<body>
+  <h1>Prezentare + Video</h1>
+
+  <video autoplay controls playsinline>
+    <source src="video.mp4" type="video/mp4">
+    Browserul tău nu poate reda video. <a href="video.mp4">Descarcă aici</a>.
+  </video>
+
+  <div>
+    <a class="button" href="prezentare.pptx" download>Descarcă PPTX</a>
+    <a class="button" href="prezentare.pdf" download>Descarcă PDF</a>
+  </div>
+</body>
+</html>
